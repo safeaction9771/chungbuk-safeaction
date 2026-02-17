@@ -1039,7 +1039,7 @@ button {
 }
 
 .about-greeting-image {
-  background: var(--gradient-primary);
+  /* background: var(--gradient-primary); Removed for transparent background */
   border-radius: var(--radius-2xl);
   height: 400px;
   display: flex;
@@ -1050,12 +1050,7 @@ button {
   overflow: hidden;
 }
 
-.about-greeting-image::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.1), transparent);
-}
+/* .about-greeting-image::after removed */
 
 /* Organization chart */
 .org-chart {
